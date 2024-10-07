@@ -14,7 +14,7 @@ for i in range(len(in_imgG)):
     imG.append(img)
 
 for j in range(len(in_imgR)):
-    img = cv2.imread(in_imgR[i])
+    img = cv2.imread(in_imgR[j])
     imR.append(img)
 
 sample = imG[0]
